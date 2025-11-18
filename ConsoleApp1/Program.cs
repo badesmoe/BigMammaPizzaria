@@ -27,6 +27,8 @@ orderlist.Add(new Order(customers.Search("Rikke")!, menu.GetPizza(1)!));
 orderlist.Add(new Order(customers.Search("Lars")!, menu.GetPizza(3)!));
 orderlist.Add(new Order(customers.Search("Mette")!, menu.GetPizza(5)!));
 orderlist.Add(new Order(customers.Search("Søren")!, menu.GetPizza(2)!));
+orderlist.Add(new Order(customers.Search("Jørgen")!, menu.GetPizza(8)!));
+
 
 orderlist.PrintAll();
 
