@@ -21,6 +21,7 @@ menu.Add(8, new Pizza("Supreme", 85.0));
 menu.Add(9, new Pizza("Buffalo", 78.0));
 menu.Add(10, new Pizza("Mediterranean", 72.0));
 menu.Add(11, new Pizza("Spicy Tuna", 500.87));
+menu.Add(12, new Pizza("Spicy Tuna 2", 500.87));
 
 OrderFile orderlist = new();
 
