@@ -32,3 +32,5 @@ orderlist.PrintAll();
 
 Console.WriteLine($"Pizzas sold: {orderlist.TotalPizzas()}\n" +
     $"Total revenue: {orderlist.TotalRevenue()} DKK");
+
+Console.WriteLine("Hej");
