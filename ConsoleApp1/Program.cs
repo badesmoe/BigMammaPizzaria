@@ -20,6 +20,7 @@ menu.Add(7, new Pizza("Four Cheese", 70.0));
 menu.Add(8, new Pizza("Supreme", 85.0));
 menu.Add(9, new Pizza("Buffalo", 78.0));
 menu.Add(10, new Pizza("Mediterranean", 72.0));
+menu.Add(11, new Pizza("Spicy Tuna", 500.87));
 
 OrderFile orderlist = new();
 
@@ -32,5 +33,3 @@ orderlist.PrintAll();
 
 Console.WriteLine($"Pizzas sold: {orderlist.TotalPizzas()}\n" +
     $"Total revenue: {orderlist.TotalRevenue()} DKK");
-
-Console.WriteLine("Hej");
